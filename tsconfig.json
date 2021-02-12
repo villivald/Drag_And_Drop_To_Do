@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
     "target": "ES2019",
-    "module": "commonjs",
+    "module": "es2015",
     "lib": ["dom", "es6", "dom.iterable", "scripthost"],
     "rootDir": "./src",
+    // "outFile": "./dist/bundle.js",
+    "outDir": "./dist",
     "removeComments": true,
     "strict": true,
     "noUnusedLocals": true,
