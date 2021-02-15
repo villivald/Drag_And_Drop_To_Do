@@ -5,4 +5,6 @@ name = "javascript"
 enabled = true
 
   [analyzers.meta]
+  dialect = "typescript"
   environment = ["nodejs"]
+  style_guide = "airbnb"
